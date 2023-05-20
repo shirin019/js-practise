@@ -1,0 +1,66 @@
+*{
+    background: black;
+    color:white;
+    font-weight: 300;
+    font-family: Inter;
+}
+body{
+    padding: 20px;
+}
+
+h4{
+    font-weight: inherit;
+    font-size: 20px;
+}
+
+.drop-down .drop-down-content{
+    padding: 8px;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+li{
+    list-style-type: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding:4px 13px;
+    width: 25%;
+    margin-bottom: 10px;
+    
+}
+#filter{
+
+font-size: 18px;
+font-weight: 300;
+text-align: center;
+background: white;
+color:black;
+padding: 3px 40px;
+margin-top: 10px
+}
+
+
+form div{
+    display:grid;
+    grid-template-columns: repeat(3,35%)
+    
+}
+#add-user
+{
+    margin-top:10px;
+    width:120px;
+    background: white;
+    color:black;
+    border:1px solid white;
+    padding: 3px 0px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+input{
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 250px;
+    height: 30px;
+    margin-top: 2px;
+}
